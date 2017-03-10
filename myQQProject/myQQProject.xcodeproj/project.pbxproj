@@ -13,6 +13,7 @@
 		E920D9E41E7305F1001CDDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E920D9E21E7305F1001CDDD3 /* Main.storyboard */; };
 		E920D9E61E7305F1001CDDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E920D9E51E7305F1001CDDD3 /* Assets.xcassets */; };
 		E920D9E91E7305F1001CDDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E920D9E71E7305F1001CDDD3 /* LaunchScreen.storyboard */; };
+		E920D9F21E7306A9001CDDD3 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E920D9F11E7306A9001CDDD3 /* MyVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E920D9E51E7305F1001CDDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E920D9E81E7305F1001CDDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E920D9EA1E7305F1001CDDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E920D9F01E7306A9001CDDD3 /* MyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyVC.h; path = ../MyVC.h; sourceTree = "<group>"; };
+		E920D9F11E7306A9001CDDD3 /* MyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyVC.m; path = ../MyVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				E920D9DD1E7305F1001CDDD3 /* AppDelegate.m */,
 				E920D9DF1E7305F1001CDDD3 /* ViewController.h */,
 				E920D9E01E7305F1001CDDD3 /* ViewController.m */,
+				E920D9F01E7306A9001CDDD3 /* MyVC.h */,
+				E920D9F11E7306A9001CDDD3 /* MyVC.m */,
 				E920D9E21E7305F1001CDDD3 /* Main.storyboard */,
 				E920D9E51E7305F1001CDDD3 /* Assets.xcassets */,
 				E920D9E71E7305F1001CDDD3 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E920D9F21E7306A9001CDDD3 /* MyVC.m in Sources */,
 				E920D9E11E7305F1001CDDD3 /* ViewController.m in Sources */,
 				E920D9DE1E7305F1001CDDD3 /* AppDelegate.m in Sources */,
 				E920D9DB1E7305F1001CDDD3 /* main.m in Sources */,
